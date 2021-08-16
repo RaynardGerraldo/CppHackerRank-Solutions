@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    // Enter your code here. Read input from STDIN. Print output to STDOUT */
     int firstnum;
     int secnum;
     int thirdnum;
