@@ -1,10 +1,8 @@
 #include <iostream>
 
 int main() {
-    // Enter your code here. Read input from STDIN. Print output to STDOUT */
-    int firstnum;
-    int secnum;
-    int thirdnum;
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    int firstnum,secnum,thirdnum;
     
     std::cin >> firstnum >> secnum >> thirdnum;
     
