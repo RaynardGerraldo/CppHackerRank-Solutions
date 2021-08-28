@@ -1,9 +1,7 @@
 #include <iostream>
-#include <string>
-
 
 int main() {
-	// Complete the program
+    // Complete the program
     
     std::string first,second;
     int len1 , len2;
@@ -13,15 +11,16 @@ int main() {
     len1 = first.length();
     len2 = second.length();
     
-    std::cout << len1 << " " << len2 << std::endl;
+    std::cout << len1 << " " << len2 << "\n";
     
     std::string result = first + second;
     char firstindex = first[0];
     first[0] = second[0];
     second[0] = firstindex;
     
-    std::cout << result << std::endl;
-    std::cout << first << " " << second << std::endl;
+    std::cout << result << "\n";
+    std::cout << first << " " << second << "\n";
     
     return 0;
 }
+
